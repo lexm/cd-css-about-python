@@ -1,11 +1,32 @@
 *{
+  margin: 0;
+  padding: 0;
   outline: 1px dotted red;
 }
-
-body {
+body{
+  width: 950px;
   background-color: #265175;
 }
-
-header {
+header{
   height: 210px;
+}
+header img{
+  display: inline-block;
+}
+.topright{
+  display:inline-block;
+  text-align: right;
+}
+nav{
+  height:90px;
+}
+.main{
+  height: 600px;
+}
+.startapp{
+  height: 450px;
+  background-color: white;
+}
+footer{
+  height: 200px;
 }
