@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  outline: 1px dotted red;
+  /*outline: 1px dotted red;*/
 }
 body{
   width: 950px;
@@ -98,6 +98,7 @@ aside{
 .startapp{
   height: 320px;
   background-color: white;
+  width: 100%;
 }
 .startapp article{
   width: 400px;
@@ -114,6 +115,7 @@ aside{
 footer{
   height: 100px;
   color: #7DAFD9;
+  background: linear-gradient(#275276, #3675AA);
 }
 footer p{
   display: inline-block;
