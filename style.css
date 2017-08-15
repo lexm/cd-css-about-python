@@ -86,8 +86,6 @@ aside{
 }
 .main li{
   margin: 10px;
-  /*background-image: url(th.jpg) no-repeat center left;
-  padding-left: 70px;*/
 }
 .main p{
   margin: 5px;
@@ -98,7 +96,7 @@ aside{
   font-size: 20px;
 }
 .startapp{
-  height: 450px;
+  height: 320px;
   background-color: white;
 }
 .startapp article{
@@ -110,12 +108,18 @@ aside{
 }
 .startapp li{
   color: #7DADD5;
+  margin: 10px 0px;
+  list-style-type: square;
 }
 footer{
-  height: 200px;
-  color: white;
+  height: 100px;
+  color: #7DAFD9;
 }
 footer p{
   display: inline-block;
+  font-size: 20px;
   margin: 20px;
+}
+.copyrt{
+  font-size: 12px;
 }
