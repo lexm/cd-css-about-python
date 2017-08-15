@@ -6,6 +6,7 @@
 body{
   width: 950px;
   background-color: #265175;
+  font-family: "Arial", "Helvetica", "san serif";
 }
 header{
   height: 210px;
@@ -16,17 +17,105 @@ header img{
 .topright{
   display:inline-block;
   text-align: right;
+  vertical-align: top;
+  margin: 20px 20px 20px 100px;
+}
+.textsize{
+  color: white;
+}
+.textsize a:link{
+  color: #A09522;
+}
+.searchbox{
+  margin: 10px 0px;
+  background-color: #444444;
+  height: 60px;
+  width: 200px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+.searchbox input{
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+}
+input[type="text"]{
+  width: 150;
+}
+input[type="submit"]{
+  left: 160px;
 }
 nav{
   height:90px;
+  background-color: #497FAB;
+  color: white;
+  margin: 0px 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+nav ul{
+  text-align: center;
+  vertical-align: middle;
+}
+nav li{
+  display: inline-block;
+  margin: 32px 10px;
+  font-size: 20px;
 }
 .main{
-  height: 600px;
+  height: 350px;
+  color: white;
+}
+aside{
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  text-decoration: underline;
+  margin: 40px;
+}
+.main, .startapp, footer{
+  text-align: center;
+}
+.main article{
+  width: 500px;
+  display: inline-block;
+  margin: 20px;
+}
+.main li{
+  margin: 10px;
+  /*background-image: url(th.jpg) no-repeat center left;
+  padding-left: 70px;*/
+}
+.main p{
+  margin: 5px;
+}
+.orange{
+  color: orange;
+  font-style: italic;
+  font-size: 20px;
 }
 .startapp{
   height: 450px;
   background-color: white;
 }
+.startapp article{
+  width: 400px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-top: 5px solid #75A8D3;
+}
+.startapp li{
+  color: #7DADD5;
+}
 footer{
   height: 200px;
+  color: white;
+}
+footer p{
+  display: inline-block;
+  margin: 20px;
 }
